@@ -5,7 +5,7 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route("/")
+@app.route("/airbnb-onepage/")
 def hello_hbnb():
     ''' Returns a simple html text '''
     return "Hello HBNB!"
